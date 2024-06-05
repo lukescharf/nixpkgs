@@ -1,7 +1,7 @@
 { lib, stdenv, unzip, fetchurl, electron, makeWrapper, geogebra }:
 let
   pname = "geogebra";
-  version = "6-0-794-0";
+  version = "6-0-804-0";
 
   srcIcon = geogebra.srcIcon;
   desktopItem = geogebra.desktopItem;
